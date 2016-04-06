@@ -1260,7 +1260,7 @@ textarea:hover {
 .nav-toggle span:before,
 .overlay-toggle span:after,
 .overlay-toggle span:before {
-    background: #C49F66;
+    background: #FFFFFF;
     display: inline-block;
     width: 3rem;
     height: .1875rem;
