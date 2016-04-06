@@ -1492,11 +1492,11 @@ header .banner__terms {
     background-position: bottom
 }
 .superhero-bg {
-    background-image: url(.../img/heroes/scaled-01.jpg)
+    background-image: url(../img/heroes/scaled-01.jpg)
 }
 @media screen and (max-width: 960px) {
     .superhero-bg {
-        background-image: url(.../img/heroes/scaled-02.jpg)
+        background-image: url(../img/heroes/scaled-02.jpg)
     }
 }
 .page-operators .superhero-bg {
