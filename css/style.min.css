@@ -1253,7 +1253,7 @@ textarea:hover {
     height: .1875rem;
     transition: 300ms;
     position: absolute;
-    background: #C49F66;
+    background: #FFFFFF;
     border-radius: 8px
 }
 .nav-toggle span:after,
