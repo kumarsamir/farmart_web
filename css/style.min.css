@@ -1496,7 +1496,7 @@ header .banner__terms {
 }
 @media screen and (max-width: 960px) {
     .superhero-bg {
-        background-image: url(../img/heroes/scaled-01.jpg)
+        background-image: url(../img/heroes/scaled-02.jpg)
     }
 }
 .page-operators .superhero-bg {
@@ -1507,7 +1507,7 @@ header .banner__terms {
 }
 @media screen and (max-width: 960px) {
     .page-operators .superhero-bg {
-        background-image: url(../img/heroes/scaled-01.jpg)
+        background-image: url(../img/heroes/scaled-02.jpg)
     }
 }
 .superhero__head {
@@ -1631,7 +1631,7 @@ header .banner__terms {
 }
 @media screen and (max-width: 960px) {
     .page-consumer .superhero__glass {
-        background-image: url(/img/Stellar_Mobile_UI_00.svg), linear-gradient(155deg, transparent, rgba(255, 255, 255, .1) 50%, transparent 50%), url(../img/heroes/scaled-01.jpg);
+        background-image: url(/img/Stellar_Mobile_UI_00.svg), linear-gradient(155deg, transparent, rgba(255, 255, 255, .1) 50%, transparent 50%), url(../img/heroes/scaled-02.jpg);
         background-size: 100%, 100%, cover;
         background-position: center, center, bottom;
         background-attachment: scroll
@@ -1643,7 +1643,7 @@ header .banner__terms {
 }
 @media screen and (max-width: 960px) {
     .page-operators .superhero__glass {
-        background-image: linear-gradient(155deg, transparent, rgba(255, 255, 255, .1) 50%, transparent 50%), url(../img/heroes/scaled-01.jpg);
+        background-image: linear-gradient(155deg, transparent, rgba(255, 255, 255, .1) 50%, transparent 50%), url(../img/heroes/scaled-02.jpg);
         background-size: 100%, cover;
         background-position: center, center;
         background-attachment: scroll
@@ -1736,12 +1736,12 @@ header .banner__terms {
 }
 @media screen and (max-width: 1024px) {
     .iPad .superhero-bg {
-        background-image: url(../img/heroes/scaled-01.jpg);
+        background-image: url(../img/heroes/scaled-02.jpg);
         background-attachment: scroll;
         background-position: center
     }
     .iPad.page-operators .superhero-bg {
-        background-image: url(../img/heroes/scaled-01.jpg)
+        background-image: url(../img/heroes/scaled-02.jpg)
     }
 }
 .slug {
