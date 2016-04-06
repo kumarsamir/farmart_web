@@ -1,148 +1,318 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Home | Farmart</title>
-	<meta name="author" content="Farmart Technologies" />
-	<meta name="description" content="fullPage full-screen backgrounds." />
-	<meta name="keywords"  content="Agriculture" />
-	<meta name="keywords"  content="Farmer marketplace" />
-	<meta name="keywords"  content="Farming equipment rental" />
-	<meta name="Resource-type" content="Document" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stellar Labs is the most advanced digital marketplace for private aviation. Private jet travelers can search, filter, book and pay for private jet charters in minutes.">
+
+    <title>Stellar - Skies wide open</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 
-	<link rel="stylesheet" type="text/css" href="/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="examples.css" />
-	<style>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/css/vendor.min.css">
+    <!-- endinject -->
 
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-		padding:0;
-	}
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/style.min.css">
+    <!-- endinject -->
 
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
+    <!-- inject:head:js -->
+    <!-- endinject -->
 
+    <!-- Facebook tags -->
+    <meta property="og:title" content="Stellar">
+    <meta property="og:image" content="//stellar.aero/site-content/press-kit/logos_png.jpg">
+    <meta property="og:site_name" content="Stellar.aero">
+        <meta property="og:description" content="Founded by experienced leaders in technology, private aviation, and business, Stellar is bringing a new perspective to the industry.">
 
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
-	.slide{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url(imgs/bg1.jpg);
-		padding: 30% 0 0 0;
-	}
-	#section2{
-		background-image: url(imgs/bg3.jpg);
-		padding: 6% 0 0 0;
-	}
-	#section3{
-		background-image: url(imgs/bg4.jpg);
-		padding: 6% 0 0 0;
-	}
-	#section3 h1{
-		color: #000;
-	}
+    <!-- Twitter tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@stellaraero">
+    <meta name="twitter:title" content="Stellar">
+    <meta name="twitter:description" content="Founded by experienced leaders in technology, private aviation, and business, Stellar is bringing a new perspective to the industry.">
+  <style type="text/css"></style></head>
+  <body>
+    <div class="wrapper page-consumer night">
 
 
- 	/*Adding background for the slides
-	* --------------------------------------- */
-	#slide1{
-		background-image: url(imgs/bg2.jpg);
-		padding: 6% 0 0 0;
-	}
-	#slide2{
-		background-image: url(imgs/bg5.jpg);
-		padding: 6% 0 0 0;
-	}
+<header class="superhero-bg">
+  <div class="banner clearfix grid-center span-12 align-top anim_fadein--nav">
+  <div class="left relative">
+    <a href="/" class="banner__logo"></a>
+    <div class="banner__terms">All rights reserved Stellar Labs 2016&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/terms-and-conditions">Terms</a></div>
+  </div>
+  <nav class="banner__nav right">
 
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
-	</style>
-
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-	<script type="text/javascript" src="/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="examples.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				verticalCentered: false
-
-			});
-		});
-	</script>
-
-</head>
-<body>
-
-<select id="demosMenu">
-  <option selected>Choose Demo</option>
-  <option id="backgrounds">Background images</option>
-  <option id="backgroundVideo">Background video</option>
-  <option id="gradientBackgrounds">Gradient backgrounds</option>
-  <option id="backgroundsFixed">Fixed fullscreen backgrounds</option>
-  <option id="looping">Looping</option>
-  <option id="noAnchor">No anchor links</option>
-  <option id="scrollingSpeed">Scrolling speed</option>
-  <option id="easing">Easing</option>
-  <option id="callbacks">Callbacks</option>
-  <option id="css3">CSS3</option>
-  <option id="continuous">Continuous scrolling</option>
-  <option id="normalScroll">Normal scrolling</option>
-  <option id="scrollBar">Scroll bar enabled</option>
-  <option id="scrolling">Scroll inside sections and slides</option>
-  <option id="navigationV">Vertical navigation dots</option>
-  <option id="navigationH">Horizontal navigation dots</option>
-  <option id="fixedHeaders">Fixed headers</option>
-  <option id="apple">Apple iPhone demo (animations)</option>
-  <option id="oneSection">One single section</option>
-  <option id="responsiveHeight">Responsive Height</option>
-  <option id="responsiveWidth">Responsive Width</option>
-  <option id="methods">Methods</option>
-</select>
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-
-<div id="fullpage">
-	<div class="section " id="section0"><h1>fullPage.js</h1></div>
-	<div class="section" id="section1">
-	    <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
-	    <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
-	</div>
-	<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
-	<div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
+    <ul>
+      <li><a href="/">Overview</a></li>
+      <li><a href="/company">Company</a></li>
+      <li><a href="/news">News</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <!-- <li><a href="/terms-and-conditions">Terms</a></li> -->
+      <li><a class="btn" href="/operators">Operators</a></li>
+    </ul>
+  </nav>
 </div>
+
+<div class="banner--mobile">
+  <a href="/" class="banner__logo"></a>
+  <div id="nav-toggle" class="nav-toggle right" href="#"><span></span></div>
+</div>
+
+<hr class="margin-horizontal fade-15">
+<nav class="mobile-nav scrollable">
+  <div class="scroll-top"></div>
+  <ul class="scrollable">
+    <li><a href="/">Overview</a></li>
+    <li><a href="/operators">Operators</a></li>
+    <li><a href="/company">Company</a></li>
+    <li><a href="/news">News</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/terms-and-conditions">Terms</a></li>
+  </ul>
+</nav>
+
+
+
+  <div class="superhero">
+    <div class="superhero__head valign">
+      <div id="hero_consumer" class="align-center"><svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); transform-origin: 0px 0px 0px;"><defs><clipPath id="animationMask_yhFjB5v2ZU"><rect width="1440" height="810" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#animationMask_yhFjB5v2ZU)" style="-webkit-user-select: none;"><path stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="1.5" transform="matrix(1,0,0,1,720,405)" d=" M-744,35 C-283,-183 174,-281 744,-71"></path><path stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" fill-opacity="0" d=" M-755,30 C-277,-261 450,-422 788,-397" stroke="#ffffff" stroke-opacity="0.001224147985889823" stroke-width="1.5" transform="matrix(1,0,0,1,720,521)"></path></g></svg></div>
+      <h1 class="valign-child wow anim_fadeup" style="visibility: visible; animation-name: fadeup;">Skies wide open</h1>
+    </div>
+    <div class="">
+      <h2 class="text-center grid-center span-8 t-span-12 wow anim_fadeup margin-bottom-hero" style="visibility: hidden; animation-name: none;">Introducing the first complete digital marketplace for private&nbsp;aviation.</h2>
+    </div>
+    <div class="superhero__foot">
+      <div class="superhero__glass slick-initialized slick-slider">
+        <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2100px; transform: translate3d(-700px, 0px, 0px); transition: transform 500ms ease;" role="listbox"><div class="screen screen4 slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 350px;"></div><div class="screen screen1 slick-slide" data-slick-index="0" aria-hidden="true" tabindex="0" role="option" aria-describedby="slick-slide00" style="width: 350px;"></div><div class="screen screen2 slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 350px;"></div><div class="screen screen3 slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 350px;"></div><div class="screen screen4 slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03" style="width: 350px;"></div><div class="screen screen1 slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 350px;"></div></div></div>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section class="slug valign--flex ">
+  <div class="valign-child grid-center span-10 t-span-12 m-padding-vertical wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+    <h2>For the first time, get hundreds of aircraft options, with incredible accuracy, in&nbsp;seconds.</h2>
+  </div>
+</section>
+
+
+<div class="sixteen-nine">
+  <div class="content">
+    <video id="consumer-vignette" width="100%" poster="/img/consumer-vignette-poster.jpg" preload="auto" loop="">
+      <source src="https://player.vimeo.com/external/145460754.hd.mp4?s=935b77ca1ec57b73d42dbdffa50bf70a71e959fd&amp;profile_id=119" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<section class="slug valign--flex ">
+  <div class="valign-child grid-center span-10 t-span-12 wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+    <h1>Rocket science for jets.</h1><p class="grid-center span-10 margin-bottom t-margin-xtra">The most amazing thing about Stellar is the technology inside. In order for aircraft operators to participate in the 21st century, their technology platform had to be rebuilt from the ground up. Developed by an experienced team of PhDs and computer scientists, the outcome was Stellar CORE—the world’s first commercial operations system for Part 135 business jet operators. Then we connected it to the first all-digital marketplace.</p>
+  </div>
+</section>
+
+
+  <section class="m padding-bottom-xxl grid-center span-10 t-span-12">
+    <div class="media row wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+  <div class="col span-4 t-span-3">
+    <img class="media-img" src="/img/icon2.svg" alt="Choose from the best brands in business aviation.">
+  </div>
+  <div class="col span-8 t-span-9">
+    <h2 class="text-gray media-headline">Choose from the best brands in business&nbsp;aviation.</h2>
+    <p>Stellar has the largest selection of platinum-rated aircraft from the best brands and most trusted FAA-certified Part 135 operators in North&nbsp;America.</p>
+  </div>
+</div>
+
+    <div class="media row wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+  <div class="col span-4 t-span-3">
+    <img class="media-img" src="/img/icon1.svg" alt="Search for the ideal aircraft option in seconds.">
+  </div>
+  <div class="col span-8 t-span-9">
+    <h2 class="text-gray media-headline">Search for the ideal aircraft option in&nbsp;seconds.</h2>
+    <p>Gone are the days of waiting days to get three quotes. Stellar scans the real-time availability and pricing directly from operators to give you the best aircraft options in seconds, including one-ways, deadheads, and transient&nbsp;aircraft.</p>
+  </div>
+</div>
+
+    <div class="media row wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+  <div class="col span-4 t-span-3">
+    <img class="media-img" src="/img/icon3.svg" alt="Select the best aircraft for your mission.">
+  </div>
+  <div class="col span-8 t-span-9">
+    <h2 class="text-gray media-headline">Select the best aircraft for your&nbsp;mission.</h2>
+    <p>Stellar gives you access to the world’s largest digitally connected fleet. Choose from 114 aircraft types, from ultralong-range Gulfstream G650s, to ultrafast Citation Xs, to ultraefficient PC-12s, then filter by age, class, or other&nbsp;criteria.</p>
+  </div>
+</div>
+
+    <div class="media row wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+  <div class="col span-4 t-span-3">
+    <img class="media-img" src="/img/icon4.svg" alt="Get direct pricing from operators.">
+  </div>
+  <div class="col span-8 t-span-9">
+    <h2 class="text-gray media-headline">Get direct pricing from operators.</h2>
+    <p>Stellar’s marketplace removes the pricing guesswork. You always get accurately priced aircraft options directly from operators in seconds. Also choose from capped pricing models with guaranteed availability from our&nbsp;partners.</p>
+  </div>
+</div>
+
+    <div class="media row wow anim_fadeup" style="visibility: hidden; animation-name: none;">
+  <div class="col span-4 t-span-3">
+    <img class="media-img" src="/img/icon5.svg" alt="Pay effortlessly with touch ID.">
+  </div>
+  <div class="col span-8 t-span-9">
+    <h2 class="text-gray media-headline">Pay effortlessly with touch&nbsp;ID.</h2>
+    <p>Stellar built in the first high-value payments network specifically designed for business aviation. Select your preferred payment method, such as directly from your bank, your favorite credit card, or even Apple&nbsp;Pay.</p>
+  </div>
+</div>
+
+  </section>
+
+  <section class="slug slug--apps bg-matte">
+    <div class="grid-center span-10 padding-vertical clearfix">
+      <h1 class="text-center margin-top-half margin-bottom t-margin-bottom-half">Private aviation now available online.</h1>
+    </div>
+
+    <div class="grid-center span-10 t-span-12 padding-top t-padding-top-0 clearfix">
+      <div class="col span-6 t-span-5 phone">
+        <div class="prevent-click"></div>
+        <div class="phone-mask slick-initialized slick-slider">
+          <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1890px; transform: translate3d(-540px, 0px, 0px); transition: transform 500ms ease;" role="listbox"><img src="/img/iphone-screen-5.jpg" class="phone-slide slide5 slick-slide slick-cloned" alt="Stellar consumer iOS app" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 270px;"><img src="/img/iphone-screen-1.jpg" class="phone-slide slide1 slick-slide" alt="Stellar consumer iOS app" data-slick-index="0" aria-hidden="true" tabindex="0" role="option" aria-describedby="slick-slide10" style="width: 270px;"><img src="/img/iphone-screen-2.jpg" class="phone-slide slide2 slick-slide slick-current slick-active" alt="Stellar consumer iOS app" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide11" style="width: 270px;"><img src="/img/iphone-screen-3.jpg" class="phone-slide slide3 slick-slide" alt="Stellar consumer iOS app" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide12" style="width: 270px;"><img src="/img/iphone-screen-4.jpg" class="phone-slide slide4 slick-slide" alt="Stellar consumer iOS app" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 270px;"><img src="/img/iphone-screen-5.jpg" class="phone-slide slide5 slick-slide" alt="Stellar consumer iOS app" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide14" style="width: 270px;"><img src="/img/iphone-screen-1.jpg" class="phone-slide slide1 slick-slide slick-cloned" alt="Stellar consumer iOS app" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 270px;"></div></div>
+          
+          
+          
+          
+        </div>
+      </div>
+      <div class="col span-6 t-span-7 offset-r t-offset-0 m-offset-0 m-text-center">
+        <h2 class="margin-bottom-half margin-top">With Stellar, it’s easier than ever to explore a new world of&nbsp;travel.</h2>
+        <p class="margin-0">Everything you need to search, select, and pay is at your fingertips.</p>
+        <a class="btn launch-subscribe margin-top-qtr">Be First</a>
+      </div>
+    </div>
+
+    <hr class="grid-center span-12 t-span-10 m-span-4 margin-xl margin-bottom-xxl">
+
+    <div class="grid-center span-10 t-span-12 clearfix padding-bottom-xl t-text-center margin-vertical">
+      <div class="col span-6 t-span-12 relative right">
+        <img src="/img/macbook.png" class="tablet" alt="Stellar operators web app">
+      </div>
+      <div class="col span-6 t-span-12 offset-r t-offset-0 m-offset-0">
+        <h2 class="margin-0 margin-bottom-half">Stellar is not only powerful for consumers but it’s equally powerful for operators.</h2>
+        <p class="margin-0">Stellar’s technology is end-to-end, meaning it not only automates business aviation for consumers but also streamlines commercial operations, scheduling, and pricing for operators.</p>
+        <a class="btn margin-top-qtr" href="/operators">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+<footer class="bg-midnight relative">
+    <div class="hero--footer slug--subscribe wow anim_fadeup valign" style="visibility: hidden; animation-name: none;">
+      <div class="valign-child">
+        <h2 class="grid-center text-center">Launching in early&nbsp;2016</h2>
+        <a href="#" class="btn launch-subscribe">Sign Up</a>
+      </div>
+    </div>
+
+  <div class="subscribe-overlay bg-midnight valign">
+    <div class="subscribe-container">
+      <div class="relative">
+        <form id="subscribe">
+          <div class="grid-center span-9 t-span-11">
+            <h2 class="grid-center span-8">Sign up to get insider access and all the latest&nbsp;news.</h2>
+
+            <div class="grid-center span-7 t-span-12">
+            <input type="text" class="subscribe__input name-input" placeholder="Full Name" maxlength="100" novalidate="">
+            <p class="subscribe__error name-error">! Enter valid&nbsp;name</p>
+
+            <input type="text" class="subscribe__input comp-input" placeholder="Company" maxlength="100" novalidate="">
+
+            <input type="email" class="subscribe__input email-input" placeholder="Email" maxlength="100" novalidate="">
+            <p class="subscribe__error email-error">! Enter valid email&nbsp;address</p>
+
+            <input type="text" class="subscribe__input phone-input" placeholder="Phone number" maxlength="100" novalidate="">
+
+            <div class="row margin-top">
+              <div class="col span-6">
+                <label><input name="type" value="Private Air Traveler" class="type-input" type="radio" checked=""><span class="dummy-radio"></span>Private Air Traveler</label>
+                <label><input name="type" value="Part 135 Operator" class="type-input" type="radio"><span class="dummy-radio"></span>Part 135 Operator</label>
+              </div>
+              <div class="col span-6">
+                <label><input name="type" value="Press" class="type-input" type="radio"><span class="dummy-radio"></span>Press</label>
+                <label><input name="type" value="Stellar Enthusiast" class="type-input" type="radio"><span class="dummy-radio"></span>Stellar Enthusiast</label>
+              </div>
+              <p class="subscribe__error radio-error">! Please select&nbsp;one</p>
+            </div>
+
+            <button type="submit" class="btn margin-top">Submit</button>
+          </div>
+          </div>
+        </form>
+        <div class="subscribe-thx valign-child anim_fadeup">
+          <h2 class="grid-center span-9 ">Thank you! <br>You will receive updates&nbsp;shortly.</h2>
+        </div>
+        <div class="overlay-toggle close"><span></span></div>
+      </div>
+    </div>
+</div>
+
+
+  <div class="banner clearfix grid-center span-12  anim_fadein--nav">
+  <div class="left relative">
+    <a href="/" class="banner__logo"></a>
+    <div class="banner__terms">All rights reserved Stellar Labs 2016&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/terms-and-conditions">Terms</a></div>
+  </div>
+  <nav class="banner__nav right">
+
+    <ul>
+      <li><a href="/">Overview</a></li>
+      <li><a href="/company">Company</a></li>
+      <li><a href="/news">News</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <!-- <li><a href="/terms-and-conditions">Terms</a></li> -->
+      <li><a class="btn" href="/operators">Operators</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="banner--mobile">
+  <a href="/" class="banner__logo"></a>
+  <div id="nav-toggle" class="nav-toggle right" href="#"><span></span></div>
+</div>
+
+<hr class="margin-horizontal fade-15">
+<nav class="mobile-nav scrollable">
+  <div class="scroll-top"></div>
+  <ul class="scrollable">
+    <li><a href="/">Overview</a></li>
+    <li><a href="/operators">Operators</a></li>
+    <li><a href="/company">Company</a></li>
+    <li><a href="/news">News</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/terms-and-conditions">Terms</a></li>
+  </ul>
+</nav>
+
+
+
+</footer>
+
+
+    </div> <!--end wrapper-->
+
+    <!-- bower:js -->
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/js/vendor.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="/js/script.min.js"></script>
+    <!-- endinject -->
+
+
+  
+
 
 </body>
 </html>
