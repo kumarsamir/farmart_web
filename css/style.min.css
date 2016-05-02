@@ -1537,7 +1537,7 @@ header .banner__terms {
 .superhero__glass {
     margin: auto;
     width: 350px;
-    height: 707px;
+    height: 705px;
     position: relative;
     -webkit-backdrop-filter: blur(20px);
     background-position: center, center;
@@ -1556,7 +1556,7 @@ header .banner__terms {
 }
 .page-consumer .superhero__glass .screen {
     width: 350px;
-    height: 707px;
+    height: 705px;
     background-size: 100%;
     outline: 0
 }
