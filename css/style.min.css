@@ -916,7 +916,7 @@ article p {
 }
 .sixteen-nine {
     position: relative;
-    z-index: 1
+    z-index: 1;
     display: none;
 }
 .sixteen-nine:before {
