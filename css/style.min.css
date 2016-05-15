@@ -2593,3 +2593,7 @@ ul.share-buttons li a:hover {
 	height: 70%;
 	background-size: contain;
 } 
+
+.slideshow { 
+	text-align: center;
+} 
