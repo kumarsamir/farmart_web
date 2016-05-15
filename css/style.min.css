@@ -1215,10 +1215,11 @@ textarea:hover {
 .banner__nav a:not(.btn) {
     color: #fff;
     height: 64px;
-    line-height: 58px;
+    line-height: 64px;
     display: block;
     text-decoration: none;
-    margin-right: 4rem
+    margin-right: 4rem; 
+    width: 100%;
 }
 @media screen and (max-width: 960px) {
     .banner__nav {
