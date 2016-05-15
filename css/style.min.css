@@ -989,7 +989,7 @@ article p {
     border: 1px solid;
     padding: 0 50px;
     display: inline-block;
-    text-align: center;
+    vertical-align: bottom;
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
@@ -1002,6 +1002,7 @@ article p {
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
+    width: 150%
 }
 .btn-playstore .psuedo-class-hover,
 .btn-playstore:focus,
@@ -1012,6 +1013,7 @@ article p {
     outline: 0 ;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
     background-size: 100%
+    width: 150%
 }
 
 @media (max-width: 550px) {
