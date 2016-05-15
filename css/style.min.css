@@ -1811,7 +1811,7 @@ header .banner__terms {
 }
 .slug--apps .phone {
     height: 660px;
-    background: url(/img/phone.png) center no-repeat;
+    background: url(https://cloud.githubusercontent.com/assets/3690178/15273293/62124636-1ac6-11e6-8f24-5269240a346b.png) center no-repeat;
     background-size: contain;
     position: relative
 }
