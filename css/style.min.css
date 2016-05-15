@@ -2581,7 +2581,7 @@ ul.share-buttons li a:hover {
 	display:none;
 	position:absolute;
 	top: 8.2%;
-	left: 3.3%; 
+    	left: 4.2%; 
 	z-index: 3;
 	max-width: 100%;
 	max-height: 408px;
