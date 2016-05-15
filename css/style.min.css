@@ -988,7 +988,7 @@ article p {
     height:40%;
     width: 40%;
     background: transparent;
-    padding: 0 50vmin;
+    padding: 0 10vmin;
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
