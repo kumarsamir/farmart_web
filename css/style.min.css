@@ -987,13 +987,11 @@ article p {
 .btn-playstore {
     width: 150%;
     background: transparent;
-    border: 0.5px solid;
     padding: 0 50px;
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
     cursor: pointer;
-    border-radius: 10px 10px 10px 10px;
     z-index: 100;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15273053/f29755cc-1abf-11e6-8c20-e247f8461a6f.gif);
     background-size: 100%;
