@@ -996,7 +996,7 @@ article p {
     text-decoration: none;
     border-radius: 0;
     z-index: 100;
-    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg) no-repeat scroll 0 0 transparent;
+    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -1009,7 +1009,7 @@ article p {
     outline: 0 ;
     z-index: 100;
     vertical-align: bottom;
-    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg) no-repeat scroll 0 0 transparent;
+    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg) ;
     background-size: 100%;
     background-repeat: no-repeat;
 }
