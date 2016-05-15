@@ -1009,7 +1009,7 @@ article p {
     user-select: none;
     border-radius: 0;
     text-transform: uppercase
-    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
+    background-image:url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
     background-repeat: no-repeat;
 }
 .btn-playstore .psuedo-class-hover,
@@ -1019,7 +1019,7 @@ article p {
     color: #fff;
     border-color: #C49F66;
     outline: 0
-    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
+    background-image:url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
     background-repeat: no-repeat;
 }
 
