@@ -2601,7 +2601,7 @@ ul.share-buttons li a:hover {
 
 .slideshow{
    position: absolute;
-    left: 100vmin;
+    left: 70vmin;
     right: 33%;
     background: transparent;
     text-align: left;
