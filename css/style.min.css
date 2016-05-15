@@ -1519,7 +1519,7 @@ header .banner__terms {
 }
 @media screen and (max-width: 960px) {
     .superhero-bg {
-        background-attachment: scroll
+        background-attachment: fixed;
     }
 }
 .page-consumer .superhero-bg {
