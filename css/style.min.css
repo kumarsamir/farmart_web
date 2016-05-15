@@ -1004,7 +1004,7 @@ article p {
 .btn-playstore:hover {
     width: 150% ;
     background: transparent;
-    border-radius: 10px 10px 10px 10px;
+    border: 0.5px transparent;
     outline: 0 ;
     z-index: 100;
     vertical-align: bottom;
