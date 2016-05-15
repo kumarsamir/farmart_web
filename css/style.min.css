@@ -2608,6 +2608,6 @@ ul.share-buttons li a:hover {
 }
 @media screen and (max-width: 550px) {
     .slideshow {
-        margin-left: 25px;
+        left: 0%;
     }
 }
