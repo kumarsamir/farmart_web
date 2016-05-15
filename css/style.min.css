@@ -982,6 +982,47 @@ article p {
     border-color: #C49F66;
     outline: 0
 }
+
+
+.btn-playstore {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: AvenirNextLTPro-Demi, "Avenir Next", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: 0 0;
+    color: #C49F66;
+    line-height: 60px;
+    letter-spacing: 2px;
+    height: 58px;
+    border: 1px solid;
+    padding: 0 50px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 0;
+    text-transform: uppercase
+    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
+    background-repeat: no-repeat;
+}
+.btn-playstore .psuedo-class-hover,
+.btn-playstore:focus,
+.btn-playstore:hover {
+    background-color: #C49F66;
+    color: #fff;
+    border-color: #C49F66;
+    outline: 0
+    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 550px) {
     .btn {
         font-size: 16px;
