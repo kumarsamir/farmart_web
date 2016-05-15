@@ -2578,13 +2578,13 @@ ul.share-buttons li a:hover {
     outline: 0
 }
 
-.screen { 
-	display:none;
-	position:absolute;
-	top: 60px;
-	left: 42px; 
-	z-index: 3;
-	width: 13.4%;
+.screen {
+    display: none;
+    position: absolute;
+    top: 71px;
+    left: 46px;
+    z-index: 3;
+    width: 17.1%;
 }
 .phone { position:absolute;
 	top: 25px; 
