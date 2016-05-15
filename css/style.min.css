@@ -988,7 +988,7 @@ article p {
     height:40%;
     width: 40%;
     background: transparent;
-    padding: 0 50px;
+    padding: 0 50vmin;
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
@@ -2609,10 +2609,14 @@ ul.share-buttons li a:hover {
     margin-left: 100px;
     
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
     .slideshow {
         left: 0%;
         right: 1%;
+    }
+    .btn-playstore{
+    	width: 20%;
+    	height: 20%;
     }
 }
 
