@@ -1207,7 +1207,8 @@ textarea:hover {
 }
 .banner__nav li {
     display: inline-block;
-    white-space: nowrap
+    white-space: nowrap;
+    vertical-align: middle;
 }
 .banner__nav a:not(.btn) {
     color: #fff;
