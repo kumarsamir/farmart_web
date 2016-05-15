@@ -2597,11 +2597,13 @@ ul.share-buttons li a:hover {
 } 
 
 .slideshow{
-    position:absolute;
+   position: absolute;
     left: 33%;
     right: 33%;
-    background:red;
+    background: transparent;
     text-align: left;
     min-width: 252px;
+    margin-left: 100px;
     
 }
+    
