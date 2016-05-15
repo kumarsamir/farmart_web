@@ -987,14 +987,13 @@ article p {
 .btn-playstore {
     width: 150%;
     background: transparent;
-    border: 1px solid;
+    border: 0.5px solid;
     padding: 0 50px;
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
     cursor: pointer;
-    text-decoration: none;
-    border-radius: 0;
+    border-radius: 5px 5px 5px 5px;
     z-index: 100;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15273053/f29755cc-1abf-11e6-8c20-e247f8461a6f.gif);
     background-size: 100%;
@@ -1009,6 +1008,7 @@ article p {
     outline: 0 ;
     z-index: 100;
     vertical-align: bottom;
+    border-radius: 5px 5px 5px 5px;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg) ;
     background-size: 100%;
     background-repeat: no-repeat;
