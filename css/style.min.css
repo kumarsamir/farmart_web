@@ -1173,9 +1173,9 @@ textarea:hover {
     }
 }
 .banner__logo {
-    width: 310px;
-    height: 58px;
-    background: url(../img/farMart_Logo.png) left no-repeat;
+    width: 160px;     
+    height: 64px;
+    background: url(https://cloud.githubusercontent.com/assets/3690178/15273200/d68c365a-1ac3-11e6-8048-9b3624be4f82.png) no-repeat;
     background-size: contain;
     display: inline-block;
     vertical-align: middle;
