@@ -1174,8 +1174,8 @@ textarea:hover {
     }
 }
 .banner__logo {
-    width: 10%;
-    height: 10%;
+    width: 350px;
+    height: 85px;
     background: url(https://cloud.githubusercontent.com/assets/3690178/15274777/797fc16e-1aed-11e6-9a4c-99b9a3a2c5e3.png) no-repeat;
     background-size: contain;
     display: inline-block;
