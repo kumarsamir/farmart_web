@@ -985,8 +985,8 @@ article p {
 
 
 .btn-playstore {
-    height:10%;
-    width: 10%;
+    height:20%;
+    width: 20%;
     background: transparent;
     padding: 0 50px;
     display: inline-block;
@@ -1001,7 +1001,8 @@ article p {
 .btn-playstore .psuedo-class-hover,
 .btn-playstore:focus,
 .btn-playstore:hover {
-    width: 150% ;
+    height:20%;
+    width: 20%;
     background: transparent;
     border: 0.5px transparent;
     outline: 0 ;
