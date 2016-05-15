@@ -986,7 +986,7 @@ article p {
 
 .btn-playstore {
     width: 150%;
-    background-color: Transparent;
+    background: transparent;
     border: 1px solid;
     padding: 0 50px;
     display: inline-block;
@@ -1004,7 +1004,7 @@ article p {
 .btn-playstore:focus,
 .btn-playstore:hover {
     width: 150% ;
-    background-color: Transparent;
+    background: transparent;
     border-color: #C49F66;
     outline: 0 ;
     z-index: 100;
