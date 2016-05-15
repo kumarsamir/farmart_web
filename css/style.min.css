@@ -992,7 +992,6 @@ article p {
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
-    vertical-align: bottom;
     cursor: pointer;
     text-decoration: none;
     border-radius: 0;
@@ -1003,12 +1002,14 @@ article p {
 .btn-playstore .psuedo-class-hover,
 .btn-playstore:focus,
 .btn-playstore:hover {
-    width: 160% ;
+    width: 150% ;
     background-color: Transparent;
     border-color: #C49F66;
     outline: 0 ;
+    vertical-align: bottom;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
-    background-size: 100%
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 550px) {
