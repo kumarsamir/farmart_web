@@ -84,9 +84,29 @@
       <h2 class="text-center grid-center span-8 t-span-12 wow anim_fadeup margin-bottom-hero" style="visibility: hidden; animation-name: none;">Introducing the first complete digital farming&nbsp;equipment rental marketplace.</h2>
     </div>
     <div class="superhero__foot">
-      <div class="">
-          <!--Enter code for slider here-->
-      </div>
+    <div class="slideshow">
+        <img class = "phone" src="phone.png">
+        <img class="screen" src="1.png">
+        <img class="screen" src="2.png">
+        <img class="screen" src="3.png">
+        <img class="screen" src="4.png">
+    </div>
+        <script>
+        var myIndex = 0;
+        carousel();
+   
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("screen");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+           myIndex++;
+           if (myIndex > x.length) {myIndex = 1}    
+           x[myIndex-1].style.display = "block";  
+           setTimeout(carousel, 3000); // Change image every 3 seconds
+       }
+</script>
     </div>
   </div>
 </header>
