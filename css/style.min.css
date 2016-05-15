@@ -1523,7 +1523,7 @@ header .banner__terms {
     background-position: top
 }
 .superhero-bg {
-    background-image: url(../img/heroes/scaled-01.jpg)
+    background-image: url(https://cloud.githubusercontent.com/assets/3690178/15274340/f4e67980-1ae1-11e6-980c-80033193b77b.jpg)
 }
 @media screen and (max-width: 960px) {
     .superhero-bg {
