@@ -1008,7 +1008,7 @@ article p {
     user-select: none;
     border-radius: 0;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
-    background-size: 100%
+    background-size: 100% ;
     background-repeat: no-repeat;
 }
 .btn-playstore .psuedo-class-hover,
