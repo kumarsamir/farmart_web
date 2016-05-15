@@ -985,14 +985,6 @@ article p {
 
 
 .btn-playstore {
-    font-size: 18px;
-    font-size: 1.8rem;
-    font-family: AvenirNextLTPro-Demi, "Avenir Next", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #C49F66;
-    line-height: 60px;
-    letter-spacing: 2px;
     height: 58px;
     border: 1px solid;
     padding: 0 50px;
