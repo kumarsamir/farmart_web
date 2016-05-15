@@ -985,7 +985,8 @@ article p {
 
 
 .btn-playstore {
-    width: 150%;
+    height:10%;
+    width: 10%;
     background: transparent;
     padding: 0 50px;
     display: inline-block;
