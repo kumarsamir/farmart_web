@@ -2577,3 +2577,18 @@ ul.share-buttons li a:hover {
 .slick-slide {
     outline: 0
 }
+
+.screen { 
+	display:none;
+	position:absolute;
+	top: 60px;
+	left: 42px; 
+	z-index: 3;
+	width: 13.4%;
+}
+.phone { position:absolute;
+	top: 25px; 
+	left: 25px; 
+	z-index: 1;
+	height: 70% 
+} 
