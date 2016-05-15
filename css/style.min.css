@@ -985,7 +985,8 @@ article p {
 
 
 .btn-playstore {
-
+    width: 160%;
+    background-color: Transparent;
     border: 1px solid;
     padding: 0 50px;
     display: inline-block;
@@ -1002,20 +1003,16 @@ article p {
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272667/fb6cde86-1ab2-11e6-9638-f6feacd1dbe0.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
-    width: 160%;
-    background-color: Transparent;
 }
 .btn-playstore .psuedo-class-hover,
 .btn-playstore:focus,
 .btn-playstore:hover {
-    background-color: #C49F66;
-    color: #fff;
+    width: 160% ;
+    background-color: Transparent;
     border-color: #C49F66;
     outline: 0 ;
     background-image: url(https://cloud.githubusercontent.com/assets/3690178/15272668/fb6df28a-1ab2-11e6-92ab-eaf9491972b8.jpg);
     background-size: 100%
-    width: 160% ;
-    background-color: Transparent;
 }
 
 @media (max-width: 550px) {
